@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/images/favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/data.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,400;1,6..12,500&family=Poppins:wght@300;400;500;600;700;800&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;900&display=swap"
+        rel="stylesheet">
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./src/images/Logo.svg" id="image-logo">
+    </header>
+
+    <section class="content">
+
+        <div class="search-area">
+            <input type="text" placeholder="Pesquise o nome do Pokemon aqui" id="search-input">
+            <button class="button-search"><img src="./src/images/Vector (1).svg" alt=""></button>
+        </div>
+
+        <div class="cards">
+            
+        </div>
+
+        <div class="details-poke">
+            <div class="details-content">
+                <div class="image">
+                    <img src="" alt="" class="imagem-pokemon">
+                </div>
+            
+                <div class="content-text">
+                    <div class="text-important">
+                        <h1 class="name-pokemon"></h1>
+                        <img src="./src/images/closeIcon.svg" id="icon-exit">
+                    </div>
+
+                    <div class="details">
+                        <div class="height">
+                            <p>Height</p>
+                            <p class="height-p"></p>
+                        </div>
+                        <div class="type-text">
+                            <p>Type</p>
+                            <p class="type-p"></p>
+                        </div>
+                    </div>
+
+                    <div class="abilities">
+                        <p>Abilities</p>
+                        <p class="abilities-text">
+
+                        </p>
+                    </div>
+
+                    <div class="circles">
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="defense-text"></p>
+                            </div>
+                            
+                            <p>Defense</p>
+                        </div>
+                        
+
+                        <div class="circle">
+                            <div class="rad">
+                              <p class="attack-text"></p>  
+                            </div>
+                            
+                            <p>Attack</p>
+                        </div>
+                        
+
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="sp-text"></p>
+                            </div>
+                            
+                            <p>Sp Atk</p>
+                        </div>
+                       
+
+                        <div class="circle">
+                            <div class="rad">
+                                <p class="df-text"></p>
+                            </div>
+                            
+                            <p>Sp Df</p>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+                
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script defer src="./src/scripts/script.js"></script>
+</body>
+
+</html>
